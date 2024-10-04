@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+	int num[10],i;
+	printf("enter the 10 inputs:");
+	for(i=0;i<10;i++) 
+		scanf("%d",&num[i]);
+	printf("the values are:");
+	for(i=0;i<10;i++) 
+		printf("%d\n",num[i]);
+}
+
